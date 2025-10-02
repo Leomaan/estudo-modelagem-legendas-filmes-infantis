@@ -1,0 +1,11 @@
+# Arquivos de build LaTeX
+build/
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls

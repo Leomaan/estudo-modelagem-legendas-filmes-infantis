@@ -1,0 +1,82 @@
+\documentclass[twocolumn, 9pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+
+\usepackage[left=48pt, right=42pt, top=48pt, bottom=60pt]{geometry}
+
+
+\usepackage{mathpazo}
+\usepackage[scaled]{helvet}
+
+
+\usepackage[alf, abnt-etal-cite=4, abnt-year-extra=plain]{abntex2cite}
+
+\usepackage{xcolor}
+\usepackage[explicit]{titlesec}
+\usepackage{lineno}
+
+
+
+\definecolor{DarkBlue}{RGB}{0,48,58}
+
+\titleformat{\section}
+  {\large\sffamily\bfseries\color{DarkBlue}}
+  {\thesection.}
+  {0.5em}
+  {#1}
+  []
+
+
+\usepackage{graphicx}
+
+
+\begin{document}
+
+
+\twocolumn[
+  \begin{center} 
+    {\sffamily\bfseries\huge Estudo e modelagem para legendas de filmes infantis\par}
+    \vspace{1.5em}
+    {\large Leoman Cássio Almeida dos Santos\par}
+    {\large Marcos Batista Figueredo\par}
+    \vspace{1em}
+    {\normalsize Universidade do Estado da Bahia\par}
+    \vspace{2em}
+  \end{center}
+
+
+  \noindent\textbf{Abstract.} 
+  Este estudo apresenta uma análise computacional em larga escala de um corpus de 433 legendas de filmes infantis, 
+  abrangendo 4 décadas. Utilizando técnicas de Processamento de Linguagem Natural (PLN), o trabalho foca em quatro eixos
+   principais: (1) a transmissão de valores sociais ao decorrer das décadas; (2) a construção linguística dos personagens; (3)
+    a evolução do vocabulário e da temática; e (4) a representação e variação das emoções nos diálogos. Para investigar esses 
+    eixos, a metodologia emprega classificação supervisionada para a análise de valores, modelos de detecção de emoção e 
+    embeddings diacrônicos para capturar a variação das emoções. Os resultados revelarão padrões 
+  temporais claros na representação de temas como família, diversidade e tecnologia, além de uma transformação mensurável na complexidade linguística e no perfil emocional dos personagens.
+  \par\vspace{1em} 
+
+  \noindent\textbf{Keywords:} Processamento de Linguagem Natural; Legendas; Processamento computacional
+  \par\vspace{3em} 
+]
+
+
+\section{Introdução}
+
+O cinema infantil transcende o mero entretenimento para se estabelecer como um dos mais poderosos agentes de socialização da cultura contemporânea. Como artefatos culturais, os filmes destinados a esse público funcionam como espelhos que refletem as ansiedades, aspirações e valores da sociedade em que foram criados, ao mesmo tempo em que atuam como moldes, ensinando às novas gerações sobre normas sociais, ética e a estrutura do mundo. Conforme aponta a literatura da área, o filme é um recurso de fácil acesso que exerce poder de atração e influência sobre as crianças, tornando-se um objeto de estudo relevante para compreender as mensagens transmitidas à infância \cite{Borges2023Filmes}.
+
+\section{Materiais e Métodos}
+
+
+\section{Resultados Esperados}
+
+
+\section{Conclusão}
+
+
+\bibliographystyle{abntex2-alf} 
+\bibliography{bibliography}
+
+\end{document}
